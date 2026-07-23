@@ -6,6 +6,7 @@
 let flujo3_puntos = 3250;
 function flujo3_iniciar(){
 
+    
     escribir(`
         Hola 👋<br><br>
 
