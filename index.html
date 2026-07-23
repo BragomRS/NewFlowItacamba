@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Demo WhatsApp - Itacama</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- PANEL IZQUIERDO -->
+
+    <aside class="sidebar">
+
+        <div class="sidebar-header">
+
+            <img src="https://i.pravatar.cc/40" class="avatar">
+
+            <div class="icons">
+                <i class="fa-solid fa-users"></i>
+                <i class="fa-solid fa-circle-notch"></i>
+                <i class="fa-solid fa-message"></i>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+
+        </div>
+
+        <div class="search">
+
+            <input
+                type="text"
+                placeholder="Buscar o empezar un chat nuevo">
+
+        </div>
+
+        <div class="contact active">
+
+            <img
+                src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png">
+
+            <div>
+
+                <h4>Ferretería Itacama</h4>
+
+                <span>Bot Empresarial</span>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+    <!-- PANEL DERECHO -->
+
+    <main class="chat">
+
+        <div class="chat-header">
+
+            <div class="contact-info">
+
+                <img
+                    src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png">
+
+                <div>
+
+                    <h3>Ferretería Itacama</h3>
+
+                    <span id="status">
+                        En línea
+                    </span>
+
+                </div>
+
+            </div>
+
+            <div class="header-icons">
+
+                <i class="fa-solid fa-video"></i>
+
+                <i class="fa-solid fa-phone"></i>
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+
+            </div>
+
+        </div>
+
+        <!-- Conversación -->
+
+        <div
+            class="messages"
+            id="messages">
+
+        </div>
+
+        <!-- Escribiendo -->
+
+        <div
+            class="typing"
+            id="typing">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+        <!-- Área inferior -->
+
+        <div class="footer">
+
+            <i class="fa-regular fa-face-smile"></i>
+
+            <input
+                type="text"
+                placeholder="Escribe un mensaje"
+                disabled>
+
+            <i class="fa-solid fa-paperclip"></i>
+
+            <i class="fa-solid fa-camera"></i>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
