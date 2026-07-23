@@ -117,7 +117,7 @@ async function confirmar() {
 
     await responder("Tus puntos fueron acreditados correctamente.");
 
-    await responder("¡Gracias por comprar en Ferretería Itacama!");
+    await responder("¡Gracias por tu compra!🎉");
 
     await responder("Esperamos verte nuevamente 😊");
 
