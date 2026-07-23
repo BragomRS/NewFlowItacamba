@@ -18,6 +18,8 @@ function cargarFlujo(flujo){
 
     limpiarChat();
 
+    document.getElementById("status").innerHTML = "En línea";
+
     mostrarChat();
 
     flujo();

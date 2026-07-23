@@ -42,3 +42,21 @@ function verFlujo(proyecto){
     }
 
 }
+
+function verProyecto(proyecto){
+
+    cerrarMenus();
+
+    if(proyecto === "flujo1"){
+        cargarFlujo(iniciarFlujo1);
+    }
+
+    if(proyecto === "flujo2"){
+        cargarFlujo(iniciarFlujo2);
+    }
+
+    if(proyecto === "flujo3"){
+        cargarFlujo(flujo3_iniciar);
+    }
+
+}
