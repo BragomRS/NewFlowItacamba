@@ -3,7 +3,7 @@
         CLIENTE PROACTIVO - ITACAMBA
         PARTE 1
 =========================================================*/
-
+let flujo3_puntos = 3250;
 function flujo3_iniciar(){
 
     escribir(`
