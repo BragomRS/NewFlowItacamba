@@ -213,14 +213,6 @@ function toggleProjectMenu(id){
 
 
 
-function verFlujo(proyecto){
-
-    console.log("Cargando flujo:", proyecto);
-
-    // Aquí conectaremos cada flujo
-
-}
-
 
 
 function verProyecto(proyecto){
@@ -233,19 +225,7 @@ function verProyecto(proyecto){
 
 }
 
-function verFlujo(proyecto){
-    
-    cerrarMenus();
 
-    if(proyecto === "itacamba"){
-
-        document.getElementById("messages").style.display="none";
-
-        document.getElementById("flowView").style.display="flex";
-
-    }
-
-}
 
 function cerrarMenus(){
 
@@ -270,4 +250,9 @@ document.addEventListener("click", function(event){
 
 });
 
-window.onload = iniciar;
+function iniciarFlujo1(){
+
+    iniciar();
+
+}
+
